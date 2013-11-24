@@ -3,7 +3,7 @@ StupidParse
 
 Kind of stupid name, eh? 
 
-Tired of parsing things stupidly with long lists of `if`, `elif` and finally and `else`. Wish Python had a `switch` statement? Well, maybe not.
+Tired of parsing things stupidly with long lists of `if`, `elif` and finally and `else`. Wish Python had a `switch` statement? Well, maybe not a switch statement.
 
 Welcome to `StupidParse`
 
