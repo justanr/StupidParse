@@ -21,14 +21,9 @@ class StupidRule(object):
         self.callback = callback
 
     def run(self, corpus):
-        '''The most important method of StupidRule.
+        '''The most important method of StupidRule.'''
 
-        Return the callback if the key matches the trigger call's return.
-
-        '''
-
-        # This actually fits on one line.
-        return self.callback if self.key == self.trigger(corpus) else False
+        return self.key == self.trigger(corpus)
 
     def __repr__(self):
         return "<StupidParse.StupidRule Key:{}, Trigger:{} Callback:{}>" \
