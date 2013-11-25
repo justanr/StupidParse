@@ -101,7 +101,7 @@ If you wanted to return all Rules that match your corpus, a simple modification 
             rules = []
             for rule in self._rules:
                 if  rule.run(corpus)
-                    rules.append(rull.callback)
+                    rules.append(rule.callback)
 
              return rules or self.default
 ```
