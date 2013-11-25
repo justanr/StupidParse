@@ -43,8 +43,7 @@ API
 * `StupidRule.trigger` must be callable and return a value comparable to `StupidRule.key`. It also only accepts a corpus as it's only input (see below though)
 * `StupidRule.run` returns `StupidRule.callback` if the trigger return value matches the key. Callback can be anything. :)
 
-###StupidParseException
-
+###StupidParseError
 This is currently not implemented. But is included for expansion's sake. Feel free to raise and catch them as you please when using StupidParse.
 
 Other Examples
